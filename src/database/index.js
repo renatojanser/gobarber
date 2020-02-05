@@ -1,6 +1,6 @@
 import Sequelize from 'sequelize'
 
-import Userr from '../app/models/User'
+import User from '../app/models/User'
 
 import databaseConfig from '../config/database'
 
@@ -18,4 +18,4 @@ class Database {
     }
 }
 
-export default Database()
+export default new Database()
